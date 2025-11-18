@@ -50,7 +50,7 @@ LINK: ``` https://discourse.nodered.org/t/unable-to-install-node-red-missing-nod
 - Inside of a node, the message object is called simply “msg”.
 - Flows are a collection of connected nodes that messages pass through.
 
-**Step 1** - Add an Inject node
+**Step 1 - Add an Inject node**
 - If you haven’t used Node-RED before, there should be one empty flow named “Flow 1”.
 - From the node palette on the left side of the Node-RED editor, select an Inject node and drag it onto the flow.
 - Double-click the node to open the “Edit inject node” view.
@@ -60,10 +60,17 @@ LINK: ``` https://discourse.nodered.org/t/unable-to-install-node-red-missing-nod
 
   <img width="1019" height="614" alt="image" src="https://github.com/user-attachments/assets/0c5e8c51-03c3-4658-acb1-b09b1cd4cf47" />
 
+  ### To reach to above Hellow World Step 1 we will follow the animation
+  
   ![nodered-helloworld-1](https://github.com/user-attachments/assets/c3084c2e-dc59-4ba0-9309-a56b597c18af)
 
 
-**Step 3** - Deploy and Run
+**Step 2 - Add a Debug node**
+
+
+
+
+**Step 3 - Deploy and Run**
 Now that our flow is complete, we need to deploy it to the server and run it.
 
 Click the Deploy button.
