@@ -13,7 +13,17 @@
 - How to run the project?
 - Wrap Up
 
-# Introduction 
+# Introduction Installation for Node Red
+```
+1. sudo apt install build-essential git curl
+2. bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+```
+<img width="1334" height="440" alt="image" src="https://github.com/user-attachments/assets/af8b608a-79f8-4d58-82a6-624a06e2057d" />
+
+Once you put Yes two timescreen will fetch like below
+
+<img width="1101" height="483" alt="image" src="https://github.com/user-attachments/assets/98114231-a44d-481c-80dc-298dd38287b4" />
+
 
 ### Wiring/Schematic
 
@@ -29,6 +39,9 @@ The image above is the nodes associated with our Node-Red DHT22/DHT11 Custom Das
 - Web Page flow – This flow will show our custom dashboard page and consists of template nodes with the HMTL/CSS/Javascript code.
 - Asynchronous HTTP endpoint flow – This flow will respond to an HTTP request “/sensorReadings” and will read our DHT22 node and return a JSON response
 - DHT Manual Trigger – This flow will display the current temperature and humidity readings using the Inject and Debug nodes.
+
+### First Step: Web Page flow
+
 
 ### Complete Code
 The complete code for this project is shown below and is available in my GitHub repository.
