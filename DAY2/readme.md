@@ -26,15 +26,13 @@
 
 <img width="487" height="342" alt="image" src="https://github.com/user-attachments/assets/e4ecec12-1edc-43a8-ac34-001dceccb5b0" />
 
-**Final Step** SD card Image is successfully completed.
+**STEP IV** SD card Image is successfully completed.
 
 <img width="484" height="339" alt="image" src="https://github.com/user-attachments/assets/f5a30827-d650-4470-bb63-8a70b7df30fd" />
 
+**STEP V** SD card has to plug in the slot of Pi Board
 
-
-
-
-
+<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/a7c36d53-c263-4958-b802-338558057f8a" />
 
 # Node-Red – DHT11/DHT22 – Custom Weather Station Dashboard content
 - Introduction
@@ -189,6 +187,11 @@ Now that our flow is complete, we need to deploy it to the server and run it.
 
 ## Ran On windows System.
 <img width="1904" height="983" alt="image" src="https://github.com/user-attachments/assets/6c3fe1a2-bf5d-4aa3-a336-e7b63e14a648" />
+
+## Experiment III
+
+**Installing Dht22 in NodeRed**
+<img width="1918" height="928" alt="image" src="https://github.com/user-attachments/assets/baf2350b-0a2f-419b-ba83-c27e8fd12af6" />
 
 ### On the Mark for Sensor interface with Components/Parts
 - The following are the components required for this post.
