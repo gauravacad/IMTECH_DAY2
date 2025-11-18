@@ -1,1 +1,14 @@
-
+# Node-Red – DHT11/DHT22 – Custom Weather Station Dashboard content
+- Introduction
+- Design
+- Why I created my custom dashboard?
+- Prerequisites
+- Components/Parts
+- Wiring/Schematic
+- Node-Red Flow
+- Web Page flow
+- What about the HTML/CSS/Javascript code?
+- Asynchronous HTTP endpoint flow
+- DHT Manual Trigger
+- How to run the project?
+- Wrap Up
