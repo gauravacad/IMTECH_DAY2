@@ -22,7 +22,7 @@
 ```
 /*********
   Gaurav Puorhit
-  Complete project details at Here[(https://github.com/gauravacad/IMTECH_DAY2/edit/main/ESP32/readme.md)]
+  Complete project details at at https://github.com/gauravacad/IMTECH_DAY2/edit/main/ESP32/readme.md
 *********/
 
 // Load Wi-Fi library
