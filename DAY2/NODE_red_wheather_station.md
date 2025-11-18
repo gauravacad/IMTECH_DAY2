@@ -42,14 +42,13 @@ LINK: ``` https://discourse.nodered.org/t/unable-to-install-node-red-missing-nod
 - If you are using a browser on another computer, you will need to use the ip address of the computer running Node-RED: http://<ip-address>:1880.
 
 ### Test hello World
-- Overview
--While this tutorial covers a very basic example, there are a few key concepts that should be discussed first:
--Messages are objects containing data, and they flow from node to node. They are the basic mechanism by which Node-RED operates.
--Nodes either generate a new message or process an incoming message.
--Messages have properties, which are values attached to the message. Properties are basically a variable and can be numbers, strings, booleans, arrays, or objects.
--A very common message property is called the payload. Many nodes will use the payload property by default.
--Inside of a node, the message object is called simply “msg”.
--Flows are a collection of connected nodes that messages pass through.
+**Overview** : While this tutorial covers a very basic example `HELLO WORLD`, there are a few key concepts that should be discussed first:
+- Messages are objects containing data, and they flow from node to node. They are the basic mechanism by which Node-RED operates.
+- Nodes either generate a new message or process an incoming message.
+- Messages have properties, which are values attached to the message. Properties are basically a variable and can be numbers, strings, booleans, arrays, or objects.
+- A very common message property is called the payload. Many nodes will use the payload property by default.
+- Inside of a node, the message object is called simply “msg”.
+- Flows are a collection of connected nodes that messages pass through.
 
 
 
