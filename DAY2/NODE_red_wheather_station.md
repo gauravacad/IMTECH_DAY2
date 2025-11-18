@@ -81,13 +81,20 @@ LINK: ``` https://discourse.nodered.org/t/unable-to-install-node-red-missing-nod
 **Step 3 - Deploy and Run**
 Now that our flow is complete, we need to deploy it to the server and run it.
 
-Click the Deploy button.
-Click the Debug tab in the right-hand side of the editor window.
-Click the Inject node’s button, which is the blue square coming out from the left-hand side of the Inject node. Clicking the button is what will inject a message into the flow.
-A “Hello, world!” message should appear in the debug window.
-Click the Inject node again to send another message.
+1. Click the Deploy button.
+2. Click the Debug tab in the right-hand side of the editor window.
+3. Click the Inject node’s button, which is the blue square coming out from the left-hand side of the Inject node. Clicking the button is what will inject a message into the flow.
+4. A **Hello, world!** message should appear in the debug window.
+5. Click the `Inject node` again to send another message.
+
+<img width="1016" height="614" alt="image" src="https://github.com/user-attachments/assets/a9f3b3a6-96b8-4c41-849a-3c15e59c6cdb" />
+
+ ### To reach to above Hello World Step 3 we will follow the animation
+
+ ![nodered-helloworld-3](https://github.com/user-attachments/assets/c8913137-7a6e-4fb1-a45f-71cce26da510)
 
 
+### Experiment II
 
 ### On the Mark for Sensor interface with Components/Parts
 - The following are the components required for this post.
