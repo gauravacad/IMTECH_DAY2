@@ -208,4 +208,14 @@ Now, you can upload the code and and the web server will work straight away. Fol
 
 <img width="623" height="435" alt="image" src="https://github.com/user-attachments/assets/508e6021-a98d-4e42-a5ee-70f6bfc76cfc" />
 
+### Testing the Web Server
+
+- Now you can test if your web server is working properly. Click the buttons to control the LEDs.
+<img width="750" height="421" alt="image" src="https://github.com/user-attachments/assets/2c683280-6396-48ce-ac62-2d9bbdc90737" />
+
+- When the ESP32 receives that request, it turns the LED attached to GPIO 26 ON and updates its state on the web page.
+
+<img width="623" height="435" alt="image" src="https://github.com/user-attachments/assets/f290d0e9-6d02-4aad-9fcc-0d5790067654" />
+
+
 
