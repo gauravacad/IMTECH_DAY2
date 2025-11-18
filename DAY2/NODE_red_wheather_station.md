@@ -149,7 +149,7 @@ Now that our flow is complete, we need to deploy it to the server and run it.
 
  ![nodered-helloworld-3](https://github.com/user-attachments/assets/c8913137-7a6e-4fb1-a45f-71cce26da510)
 
-## RAn On windows System 
+## Ran On windows System.
 <img width="1904" height="983" alt="image" src="https://github.com/user-attachments/assets/6c3fe1a2-bf5d-4aa3-a336-e7b63e14a648" />
 
 ### Experiment II
