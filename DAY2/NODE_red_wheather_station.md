@@ -64,6 +64,62 @@ LINK: ``` https://discourse.nodered.org/t/unable-to-install-node-red-missing-nod
   
   ![nodered-helloworld-1](https://github.com/user-attachments/assets/c3084c2e-dc59-4ba0-9309-a56b597c18af)
 
+ ### Now, Export it for Future Usage
+``` bash
+[
+    {
+        "id": "a8d805058566da1b",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "57bcf834fa3d749c",
+        "type": "inject",
+        "z": "a8d805058566da1b",
+        "name": "Hello World",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hello World",
+        "payloadType": "str",
+        "x": 490,
+        "y": 200,
+        "wires": [
+            [
+                "7a4bb906ad556d0d"
+            ]
+        ]
+    },
+    {
+        "id": "7a4bb906ad556d0d",
+        "type": "debug",
+        "z": "a8d805058566da1b",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 240,
+        "wires": []
+    }
+]
+```
+ 
 
 **Step 2 - Add a Debug node**
 - We need a destination for the Inject node’s message. We’ll use the Debug node, which will print out our message to the debug console window.
@@ -93,6 +149,8 @@ Now that our flow is complete, we need to deploy it to the server and run it.
 
  ![nodered-helloworld-3](https://github.com/user-attachments/assets/c8913137-7a6e-4fb1-a45f-71cce26da510)
 
+## RAn On windows System 
+<img width="1904" height="983" alt="image" src="https://github.com/user-attachments/assets/6c3fe1a2-bf5d-4aa3-a336-e7b63e14a648" />
 
 ### Experiment II
 
