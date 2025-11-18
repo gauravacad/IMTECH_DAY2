@@ -176,3 +176,36 @@ void loop(){
   }
 }
 ```
+
+### Setting Your Network Credentials
+```
+// Replace with your network credentials
+const char* ssid     = "REPLACE_WITH_YOUR_SSID";
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
+
+```
+### Uploading the Code
+Now, you can upload the code and and the web server will work straight away. Follow the next steps to upload code to the ESP32:
+1) Plug your `ESP32 board` in your computer;
+2) In the Arduino IDE select your board in Tools > Board (in our case we’re using the ESP32 DEVKIT DOIT board);
+
+
+<img width="614" height="520" alt="image" src="https://github.com/user-attachments/assets/98493acd-5716-4c4f-9754-d549037793df" />
+
+3) Select the COM port in Tools > Port
+   
+<img width="490" height="386" alt="image" src="https://github.com/user-attachments/assets/62367175-1260-44dd-993a-d65c500a7c5d" />
+
+4) Wait for the “Done uploading” message.
+
+<img width="671" height="388" alt="image" src="https://github.com/user-attachments/assets/0960cbf6-d5ed-49d9-a021-e0f12c858a9b" />
+
+5) Finding the ESP IP Address
+
+<img width="739" height="222" alt="image" src="https://github.com/user-attachments/assets/93fcbbf1-7ca3-4c38-97c6-136498602eff" />
+
+6) To access the web server, open your browser, paste the ESP32 IP address, and you’ll see the following page. In our case it is 192.168.1.135.
+
+<img width="623" height="435" alt="image" src="https://github.com/user-attachments/assets/508e6021-a98d-4e42-a5ee-70f6bfc76cfc" />
+
+
