@@ -5,4 +5,4 @@ To send sensor readings to ThingSpeak, we’ll use the thingspeak-arduino librar
 
 # ThingSpeak – Getting Started
 
-Go to [ThingSpeak](https://thingspeak.mathworks.com/ )an click the “Get Started For Free” button to create a new account. This account is linked to a Mathworks account. So, if you already have a Mathworks account, you should log in with that account.
+Go to [ThingSpeak] (https://thingspeak.mathworks.com/ )an click the “Get Started For Free” button to create a new account. This account is linked to a Mathworks account. So, if you already have a Mathworks account, you should log in with that account.
