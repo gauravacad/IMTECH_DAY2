@@ -199,5 +199,7 @@ void loop(){
 ```
 ## Demo 
 
+<img width="600" height="534" alt="image" src="https://github.com/user-attachments/assets/d8bd3390-bd88-42fb-8e15-73d5a463abef" />
+
 <img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/887d3200-329c-4530-b3ef-0a52e33a419b" />
 
