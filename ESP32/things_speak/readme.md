@@ -144,4 +144,5 @@ Finally, you need to insert the Write API key you’ve gotten from the previous 
 const char * myWriteAPIKey = "XXXXXXXXXXXXXXXX";
 ```
 # Demonstration
-![Uploading image.png…]()
+<img width="731" height="525" alt="image" src="https://github.com/user-attachments/assets/cd503ec7-ca1f-439b-9f4a-feb98531142c" />
+
