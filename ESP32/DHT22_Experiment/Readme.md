@@ -22,9 +22,9 @@ In this example, we’re connecting the DHT data pin to GPIO 4. However, you can
 
   ## ESP32 Reading Temperature and Humidity Sketch
 
-  ```
- // REQUIRES the following Arduino libraries:
-// - DHT Sensor Library: https://github.com/adafruit/DHT-sensor-library
+ ```
+  // REQUIRES the following Arduino libraries:
+ // - DHT Sensor Library: https://github.com/adafruit/DHT-sensor-library
 // - Adafruit Unified Sensor Lib: https://github.com/adafruit/Adafruit_Sensor
 
 #include "DHT.h"
@@ -97,3 +97,6 @@ void loop() {
 ```
 
 ## Demonstration
+
+<img width="726" height="376" alt="image" src="https://github.com/user-attachments/assets/92046348-e592-461a-8f14-fb7fb3e2020e" />
+
