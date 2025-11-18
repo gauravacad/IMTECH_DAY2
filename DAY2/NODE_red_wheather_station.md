@@ -28,6 +28,27 @@
 
 <img width="1125" height="475" alt="image" src="https://github.com/user-attachments/assets/8da7ae9a-63f4-4386-a2f0-71f08db71f1c" />
 
+### Installation check 
+
+
+
+### RUN the Node Red
+
+
+
+
+### Test hello World
+
+
+
+
+### On the Mark for Sensor interface with Components/Parts
+- The following are the components required for this post.
+- Raspberry Pi 4B
+- DHT22 – Amazon | or DHT11
+- Breadboard  
+- Connecting Wires 
+
 ### Wiring/Schematic
 
 The image above is the wiring and schematic diagram for this project. You can replace the DHT22 with the DHT11 if that is the sensor you have.
