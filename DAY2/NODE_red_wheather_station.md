@@ -20,10 +20,13 @@
 ```
 <img width="1334" height="440" alt="image" src="https://github.com/user-attachments/assets/af8b608a-79f8-4d58-82a6-624a06e2057d" />
 
-Once you put Yes two timescreen will fetch like below
+### Once you put Yes two timescreen will fetch like below
 
 <img width="1101" height="483" alt="image" src="https://github.com/user-attachments/assets/98114231-a44d-481c-80dc-298dd38287b4" />
 
+### It will proceed with green Ticks
+
+<img width="1125" height="475" alt="image" src="https://github.com/user-attachments/assets/8da7ae9a-63f4-4386-a2f0-71f08db71f1c" />
 
 ### Wiring/Schematic
 
