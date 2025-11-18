@@ -28,17 +28,39 @@
 
 <img width="1125" height="475" alt="image" src="https://github.com/user-attachments/assets/8da7ae9a-63f4-4386-a2f0-71f08db71f1c" />
 
+### Error 
+LINK: ``` https://discourse.nodered.org/t/unable-to-install-node-red-missing-node-js-and-npm-stops-installation-buster-10/54646```
+<img width="1091" height="495" alt="image" src="https://github.com/user-attachments/assets/a7609862-05da-4cde-90b9-e402cb49d121" />
+
 ### Installation check 
+-
 
-
-
-### RUN the Node Red
-
-
-
+### RUN the Node Red "http://localhost:1880 / http://<ip-address>:1880"
+ Access the editor
+- With Node-RED running, open the editor in a web browser.
+- If you are using a browser on the same computer that is running Node-RED, you can access it with the url: http://localhost:1880.
+- If you are using a browser on another computer, you will need to use the ip address of the computer running Node-RED: http://<ip-address>:1880.
 
 ### Test hello World
+- Overview
+-While this tutorial covers a very basic example, there are a few key concepts that should be discussed first:
+-Messages are objects containing data, and they flow from node to node. They are the basic mechanism by which Node-RED operates.
+-Nodes either generate a new message or process an incoming message.
+-Messages have properties, which are values attached to the message. Properties are basically a variable and can be numbers, strings, booleans, arrays, or objects.
+-A very common message property is called the payload. Many nodes will use the payload property by default.
+-Inside of a node, the message object is called simply “msg”.
+-Flows are a collection of connected nodes that messages pass through.
 
+
+
+Step 3 - Deploy and Run
+Now that our flow is complete, we need to deploy it to the server and run it.
+
+Click the Deploy button.
+Click the Debug tab in the right-hand side of the editor window.
+Click the Inject node’s button, which is the blue square coming out from the left-hand side of the Inject node. Clicking the button is what will inject a message into the flow.
+A “Hello, world!” message should appear in the debug window.
+Click the Inject node again to send another message.
 
 
 
