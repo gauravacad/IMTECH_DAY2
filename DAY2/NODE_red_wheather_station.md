@@ -66,9 +66,17 @@ LINK: ``` https://discourse.nodered.org/t/unable-to-install-node-red-missing-nod
 
 
 **Step 2 - Add a Debug node**
+- We need a destination for the Inject node’s message. We’ll use the Debug node, which will print out our message to the debug console window.
+- From the node palette, select a Debug node and drag it onto the flow, and then place it to the right-hand side of the Inject node.
+- Wire the nodes together. Place the mouse cursor over the Inject node’s output port (a small gray square on the right-hand side of the node), then left-click and drag a wire over to the input port of the Debug node.
+- A gray wire should now be connecting the output of the Inject node to the input of the Debug node.
+- The Debug node will automatically print the msg.payload property to the console window, which we’ll see in the next step.
 
+<img width="1019" height="614" alt="image" src="https://github.com/user-attachments/assets/c9b4d366-dbcd-40a2-931f-29d427d5cd04" />
 
-
+ ### To reach to above Hello World Step 2 we will follow the animation
+ 
+ ![nodered-helloworld-2](https://github.com/user-attachments/assets/06263d1f-5220-41ab-8bdc-1b957377b8a4)
 
 **Step 3 - Deploy and Run**
 Now that our flow is complete, we need to deploy it to the server and run it.
