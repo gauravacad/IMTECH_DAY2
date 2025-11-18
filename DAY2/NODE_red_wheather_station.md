@@ -41,7 +41,7 @@ LINK: ``` https://discourse.nodered.org/t/unable-to-install-node-red-missing-nod
 - If you are using a browser on the same computer that is running Node-RED, you can access it with the url: http://localhost:1880.
 - If you are using a browser on another computer, you will need to use the ip address of the computer running Node-RED: http://<ip-address>:1880.
 
-### Test hello World
+### Test Hello World
 **Overview** : While this tutorial covers a very basic example `HELLO WORLD`, there are a few key concepts that should be discussed first:
 - Messages are objects containing data, and they flow from node to node. They are the basic mechanism by which Node-RED operates.
 - Nodes either generate a new message or process an incoming message.
@@ -50,9 +50,20 @@ LINK: ``` https://discourse.nodered.org/t/unable-to-install-node-red-missing-nod
 - Inside of a node, the message object is called simply “msg”.
 - Flows are a collection of connected nodes that messages pass through.
 
+**Step 1** - Add an Inject node
+- If you haven’t used Node-RED before, there should be one empty flow named “Flow 1”.
+- From the node palette on the left side of the Node-RED editor, select an Inject node and drag it onto the flow.
+- Double-click the node to open the “Edit inject node” view.
+- For the Payload field, select string and enter Hello, world! in the text field.
+- Click Done.
+- Later, with its msg.payload property set to “Hello, world!” this node is going to inject a message into the flow.
+
+  <img width="1019" height="614" alt="image" src="https://github.com/user-attachments/assets/0c5e8c51-03c3-4658-acb1-b09b1cd4cf47" />
+
+  ![nodered-helloworld-1](https://github.com/user-attachments/assets/c3084c2e-dc59-4ba0-9309-a56b597c18af)
 
 
-Step 3 - Deploy and Run
+**Step 3** - Deploy and Run
 Now that our flow is complete, we need to deploy it to the server and run it.
 
 Click the Deploy button.
