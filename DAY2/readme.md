@@ -152,7 +152,28 @@ Now that our flow is complete, we need to deploy it to the server and run it.
 ## Ran On windows System.
 <img width="1904" height="983" alt="image" src="https://github.com/user-attachments/assets/6c3fe1a2-bf5d-4aa3-a336-e7b63e14a648" />
 
-### Experiment II
+
+
+## Experiment II Interfacing DHT11 with Raspberry Pi Any model
+
+**STEP I:** Install Win 32 Disk Imager from the software folder on your windows system.
+
+<img width="484" height="338" alt="image" src="https://github.com/user-attachments/assets/bee1dfe3-cd40-4de3-b216-94662c1656ee" />
+
+**STEP II:** Open the software
+
+<img width="484" height="338" alt="image" src="https://github.com/user-attachments/assets/bee1dfe3-cd40-4de3-b216-94662c1656ee" />
+
+**STEP III:** Format your SD card and Then Check the File Name appeared here.
+
+<img width="487" height="341" alt="image" src="https://github.com/user-attachments/assets/10933bbf-7b3f-4a28-a8b5-da12bf3e20d4" />
+
+**STEP III:** Locate the Raspberry Pi Image "For help the link is `https://www.raspberrypi.com/software/operating-systems/`
+- I used the **Debian Trixie with desktop environment and recommended applications** as red circle.
+- Available in software -> `OS` folder.
+
+<img width="487" height="342" alt="image" src="https://github.com/user-attachments/assets/e4ecec12-1edc-43a8-ac34-001dceccb5b0" />
+
 
 ### On the Mark for Sensor interface with Components/Parts
 - The following are the components required for this post.
