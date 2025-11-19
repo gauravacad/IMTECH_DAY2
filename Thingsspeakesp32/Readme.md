@@ -59,3 +59,9 @@ void loop() {
   delay(10000); // Delay for 10 seconds
 }
 ```
+library help 
+
+In the search bar, type "ThingSpeak" and find the library by MathWorks.
+
+video help
+https://m.youtube.com/watch?v=8JdOLIxw9Yc&time_continue=58&source_ve_path=NzY3NTg&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Ddht22%2Bon%2Bthings%2Bspeak%2Bwith%2Besp32%26oq%3Ddht22%2B%26gs_lcrp%3DEgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyC
