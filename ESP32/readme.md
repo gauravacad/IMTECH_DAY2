@@ -19,12 +19,13 @@
 <img width="984" height="700" alt="image" src="https://github.com/user-attachments/assets/0c6a5f4b-4f13-42e6-951d-ec1da1610492" />
 
 ## ESP32 Web Server Code
+ <img width="856" height="484" alt="image" src="https://github.com/user-attachments/assets/d3bcd23e-3b8d-417d-b318-f91e7909be66" />
 ```
 /*********
   Gaurav Puorhit
   Complete project details at at https://github.com/gauravacad/IMTECH_DAY2/edit/main/ESP32/readme.md
   check the ip 192.168.5.100 that is your ip in console
-  <img width="856" height="484" alt="image" src="https://github.com/user-attachments/assets/d3bcd23e-3b8d-417d-b318-f91e7909be66" />
+ 
 
 *********/
 #include <WiFi.h>
