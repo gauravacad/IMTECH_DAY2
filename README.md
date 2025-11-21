@@ -1,4 +1,4 @@
-                                                   # IMTECH_JIGYASA (Organised By [Mr. Chander Shekhar Sharma – Senior Scientist, IMTECH](https://www.imtech.res.in/contact/staff/mr-chander-shekhar-sharma)
+# IMTECH_JIGYASA (Organised By [Mr. Chander Shekhar Sharma – Senior Scientist, IMTECH](https://www.imtech.res.in/contact/staff/mr-chander-shekhar-sharma)
                                                    
 # Three days ' Training of Trainers on IoT (Theme: Agriculture) ' for school teachers and ATL lab instructors has commenced from 18th Nov at CSIR IMTECH
 
