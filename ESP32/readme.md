@@ -35,7 +35,7 @@
 #include <uri/UriBraces.h>
 
 #define WIFI_SSID "Iphone"
-#define WIFI_PASSWORD "Sushant@2012"
+#define WIFI_PASSWORD "XXXXX"
 // Defining the WiFi channel speeds up the connection:
 #define WIFI_CHANNEL 6
 
