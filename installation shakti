@@ -1,0 +1,52 @@
+1. Complete Setup & Reproduction Runbook
+
+Here is the complete, concise reference guide summarizing all the steps, tool installations, path fixes, and commands needed to generate the full Shakti E-Class Verilog output shown in your screenshot:
+
+Step 1: Install Dependencies & Bluespec Compiler (bsc)
+bash
+# 1. Install prerequisites and Verilator
+apt-get update && apt-get install -y libtinfo6 libgmp10 wget verilator python3-pip
+# 2. Download and install pre-built Bluespec Compiler (BSC 2024.07 for Ubuntu 22.04)
+wget https://github.com/B-Lang-org/bsc/releases/download/2024.07/bsc-2024.07-ubuntu-22.04.tar.gz
+tar -xzf bsc-2024.07-ubuntu-22.04.tar.gz -C /usr/local --strip-components=1
+rm bsc-2024.07-ubuntu-22.04.tar.gz
+Step 2: Configure RISC-V Toolchain Symlinks
+
+Since the container had riscv64-unknown-elf-gcc, we created symlinks so the 32-bit Shakti build scripts can find riscv32- and riscv-:
+
+bash
+# Link 64-bit multi-lib GCC to 32-bit and generic aliases
+for tool in gcc ar objcopy objdump size; do
+    ln -sf /opt/riscv/bin/riscv64-unknown-elf-$tool /usr/local/bin/riscv32-unknown-elf-$tool
+    ln -sf /opt/riscv/bin/riscv64-unknown-elf-$tool /usr/local/bin/riscv-unknown-elf-$tool
+done
+Step 3: Configure Bluespec Paths (BLUESPECDIR)
+
+Modern bsc 2024.07 places libraries in /usr/local/lib/Libraries/. We configure the legacy paths expected by the Shakti Makefile:
+
+bash
+# 1. Export BLUESPECDIR
+export BLUESPECDIR=/usr/local/lib
+echo "export BLUESPECDIR=/usr/local/lib" >> ~/.bashrc
+# 2. Create symlinks for Prelude and BlueNoC
+ln -sf /usr/local/lib/Libraries /usr/local/lib/Prelude
+mkdir -p /usr/local/lib/Libraries/BlueNoC
+Step 4: Apply Makefile Fixes (sed commands)
+
+We fixed two legacy flags in base-sim/Makefile:
+
+RTS Stack Overflow: Changed -K40000M (exceeded 4GB integer limit) to -K4000M.
+Legacy Filter: Removed -verilog-filter (obsolete filter looking for non-existent basicinout).
+bash
+cd /workspaces/vsd-riscv2/shakti-e-class/base-sim
+# 1. Fix GHC stack allocation limit
+sed -i 's/-K40000M/-K4000M/g' Makefile
+# 2. Remove legacy verilog-filter
+sed -i 's|-verilog-filter [^ ]*||g' Makefile
+Step 5: Pull Dependencies & Generate Verilog
+bash
+# 1. Clone required SoC bus, UART, and CLINT modules
+chmod +x manager.sh
+./manager.sh update_deps
+# 2. Compile Bluespec into Verilog
+make CONFIG=soc_config.inc generate_verilog
